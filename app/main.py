@@ -29,7 +29,7 @@ app.include_router(vote.router)
 
 @app.get('/')
 def index():
-    return {'hello': "world"}
+    return {'hello': "word"}
 
 
 if __name__ == '__main__':
